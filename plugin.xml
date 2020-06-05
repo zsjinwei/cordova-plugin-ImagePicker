@@ -175,7 +175,7 @@
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
             <!-- 从SDCard读取数据权限 -->
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-
+            <uses-permission android:name="android.permission.CAMERA" android:required="false" />
         </config-file>
 
         <!-- 第三方库 和 sourceCompatibility 1.7 用来支持 diamond 运算符  -->
